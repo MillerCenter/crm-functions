@@ -3,7 +3,6 @@
  * Change this to on submit form 
 */
 
-// This function runs anytime a cell is edited in the CRM - consider changing to run on form submit?
 function onEdit(e) {
   var ss = e.source;
   var s = ss.getActiveSheet();
